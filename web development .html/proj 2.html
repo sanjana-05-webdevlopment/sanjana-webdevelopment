@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GlowMist - Natural Skincare Spray</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 20px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+
+    p.description {
+      color: #555;
+      margin: 15px 0;
+    }
+
+    .cta-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 20px 0;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    form {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 8px;
+    }
+
+    input[type="submit"] {
+      margin-top: 15px;
+      padding: 10px;
+      width: 100%;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 15px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>GlowMist</h1>
+
+    <!-- Product Image -->
+    <img src="face mist.jpg" alt="GlowMist Skincare Spray">
+
+    <!-- 2-line Description -->
+    <p class="description">
+      GlowMist is a gentle facial mist made from natural ingredients. <br>
+      Instantly hydrates and refreshes your skin with every spray.
+    </p>
+
+    <!-- CTA Button -->
+    <button class="cta-button">Try GlowMist Now</button>
+
+    <!-- Newsletter Form -->
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <div class="checkbox-label">
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I want skincare tips & updates</label>
+      </div>
+
+      <input type="submit" value="Join the Glow Club">
+    </form>
+  </div>
+
+</body>
+</html>

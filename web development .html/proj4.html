@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Photo Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      color: #333;
+      font-style: italic;
+    }
+
+    .gallery {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+    .photo {
+      display: inline-block;
+      width: 32%;
+      margin: 1%;
+      vertical-align: top;
+      box-sizing: border-box;
+    }
+
+    .photo img {
+      width: 100%;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Tablet: 2 columns */
+    @media (max-width: 768px) {
+      .photo {
+        width: 48%;
+        margin: 1%;
+      }
+    }
+
+    /* Mobile: 1 column */
+    @media (max-width: 480px) {
+      .photo {
+        width: 98%;
+        margin: 1% auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Travel Gallery</h1>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="light.jpg" alt="Image 1">
+    </div>
+    <div class="photo">
+      <img src="cherry blossom.avif" alt="Image 2"
+      width="100px">
+    </div>
+    <div class="photo">
+      <img src="edinburgh.jpg" alt="Image 3">
+    </div>
+    <div class="photo">
+      <img src="nyc.jpg"Image 4">
+    </div>
+    <div class="photo">
+      <img src="amsterdam.jpg" alt="Image 5">
+    </div>
+    <div class="photo">
+      <img src="lapland.avif" alt="Image 6">
+    </div>
+  </div>
+
+</body>
+</html>

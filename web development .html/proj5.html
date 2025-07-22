@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sticky Navbar Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      background-color: #333;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 100;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 80px 20px;
+      height: auto;
+      min-height: 600px;
+    }
+
+    #home { background-color: #f2f2f2; }
+    #about { background-color: #e0f7fa; }
+    #contact { background-color: #ffe0b2; }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+      max-width: 600px;
+      margin: 15px auto;
+    }
+
+    ul {
+      max-width: 600px;
+      margin: 20px auto;
+      color: #555;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #666;
+      max-width: 600px;
+      margin: 20px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Home Section -->
+  <div id="home" class="section">
+    <h2>Home Section</h2>
+    <p>Welcome to our simple sticky navigation demo page!</p>
+    <p>This is a smooth-scrolling website that helps you jump to different parts of the page easily.</p>
+    <p>Whether you're on mobile, tablet, or desktop, the navigation bar stays at the top so you never lose your way.</p>
+    <blockquote>“Navigation is not just about moving around a website — it's about guiding users on a journey.”</blockquote>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are passionate learners and developers who love building simple and beautiful web pages using HTML and CSS.</p>
+    <p>Our goal is to make learning web design fun, practical, and beginner-friendly.</p>
+    <ul>
+      <li>We use semantic HTML to improve accessibility</li>
+      <li>CSS is used for layout, colors, and style</li>
+      <li>Responsive design helps pages look good on all devices</li>
+    </ul>
+    <p>By learning and applying these simple techniques, you can build your own personal or project websites from scratch!</p>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Whether you have feedback, a project idea, or just want to say hello — drop us a message.</p>
+    <p>You can contact us through:</p>
+    <ul>
+      <li>Email: contact@learnhtmlcss.com</li>
+      <li>Instagram: @htmlcss_journey</li>
+      <li>GitHub: github.com/learn-html-css</li>
+    </ul>
+    <blockquote>“The best way to learn is to build. And then build more.”</blockquote>
+  </div>
+
+</body>
+</html>
